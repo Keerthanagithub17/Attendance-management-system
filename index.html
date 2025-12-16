@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Attendance Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Attendance Management</h2>
+
+  <input type="text" id="name" placeholder="Enter student name">
+
+  <div class="buttons">
+    <button class="present" onclick="markPresent()">Mark Present</button>
+    <button class="absent" onclick="markAbsent()">Mark Absent</button>
+  </div>
+
+  <h3>Present Students</h3>
+  <ul id="presentList"></ul>
+
+  <h3>Absent Students</h3>
+  <ul id="absentList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
